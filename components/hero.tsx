@@ -14,7 +14,7 @@ export default function Hero() {
               <span className="italic text-primary-fixed">with gravity.</span>
             </h1>
             <p className="text-on-surface-variant max-w-2xl mb-12" style={{ fontFamily: "'Inter', system-ui", fontSize: '18px', fontWeight: 400, lineHeight: 1.6 }}>
-              I&apos;m Muhammad Talal, a software engineer and full-stack developer who transforms complex problems into reliable, scalable products.
+              I&apos;m Muhammad Talal, a AI engineer and full-stack developer who transforms complex problems into reliable, scalable products.
             </p>
             <div className="flex flex-wrap items-center gap-10">
               <a

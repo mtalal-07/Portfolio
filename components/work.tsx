@@ -31,7 +31,7 @@ export default function Work() {
     {
       number: '05',
       category: 'BUSINESS INTELLIGENCE',
-      title: 'Mobile Sales Dashboard',
+      title: 'Sales Intelligence & Business Analytics Dashboard',
       tags: ['Power BI', 'DAX', 'Power Query', 'SQL Server'],
       description: '12-page Power BI dashboard for Motorola tracking 769M in revenue, 19K units sold, and 4K transactions with real-time KPIs.',
     },

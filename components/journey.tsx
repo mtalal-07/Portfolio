@@ -1,7 +1,7 @@
 export default function Journey() {
   const milestones = [
     {
-      dateRange: '2024 – PRESENT',
+      dateRange: '2023 – PRESENT',
       title: 'BS Artificial Intelligence',
       organization: 'NFC Institute of Engineering and Fertilizer Research · Faisalabad',
       description: 'CGPA 3.29/4.0 · Artificial Intelligence Batch 2023.',

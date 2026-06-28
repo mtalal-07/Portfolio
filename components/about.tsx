@@ -32,15 +32,15 @@ export default function About() {
       </div>
 
       {/* Feature Blocks */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-0 mt-32 border-t border-outline-variant">
-        <div className="p-8 border-b md:border-b-0 md:border-r border-outline-variant group hover:bg-surface-elevated transition-colors">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-0 mt-20 md:mt-32 border-t border-outline-variant">
+        <div className="p-6 md:p-8 border-b md:border-b-0 md:border-r border-outline-variant group hover:bg-surface-elevated transition-colors">
           <span className="text-primary-fixed block mb-6" style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '14px', fontWeight: 500 }}>01</span>
           <h3 className="mb-4" style={{ fontFamily: "'Syne', system-ui", fontSize: '28px', fontWeight: 600, letterSpacing: '-0.01em' }}>AI &amp; Machine Learning</h3>
           <p className="text-gray-muted" style={{ fontFamily: "'Inter', system-ui", fontSize: '16px', fontWeight: 400, lineHeight: 1.6 }}>
             Intelligent systems built with CNNs, RNNs, LSTMs, and transformer-based LLMs &mdash; from computer vision to NLP and generative AI with RAG and LangChain.
           </p>
         </div>
-        <div className="p-8 border-b md:border-b-0 md:border-r border-outline-variant group hover:bg-surface-elevated transition-colors">
+        <div className="p-6 md:p-8 border-b md:border-b-0 md:border-r border-outline-variant group hover:bg-surface-elevated transition-colors">
           <span className="text-primary-fixed block mb-6" style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '14px', fontWeight: 500 }}>02</span>
           <h3 className="mb-4" style={{ fontFamily: "'Syne', system-ui", fontSize: '28px', fontWeight: 600, letterSpacing: '-0.01em' }}>Full-stack development</h3>
           <p className="text-gray-muted" style={{ fontFamily: "'Inter', system-ui", fontSize: '16px', fontWeight: 400, lineHeight: 1.6 }}>

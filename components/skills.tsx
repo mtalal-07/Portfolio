@@ -42,12 +42,12 @@ export default function Skills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="group py-12 flex flex-row justify-between items-center gap-16 hover:bg-surface-elevated transition-colors px-4 border-b border-outline-variant last:border-b-0"
+            className="group py-8 md:py-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 md:gap-16 hover:bg-surface-elevated transition-colors px-4 md:px-0 border-b border-outline-variant last:border-b-0"
           >
-            <span className="text-gray-muted uppercase flex-shrink-0" style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '14px', fontWeight: 500, minWidth: 'fit-content' }}>
+            <span className="text-gray-muted uppercase flex-shrink-0" style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '12px', fontWeight: 500, minWidth: 'fit-content' }}>
               {skill.number} · {skill.category}
             </span>
-            <h3 className="text-on-surface group-hover:text-primary-fixed transition-colors flex-1" style={{ fontFamily: "'Syne', system-ui", fontSize: '32px', fontWeight: 700, letterSpacing: '-0.01em' }}>
+            <h3 className="text-on-surface group-hover:text-primary-fixed transition-colors flex-1 text-xl md:text-3xl" style={{ fontFamily: "'Syne', system-ui", fontSize: 'clamp(16px, 5vw, 32px)', fontWeight: 700, letterSpacing: '-0.01em' }}>
               {skill.tech}
             </h3>
           </div>

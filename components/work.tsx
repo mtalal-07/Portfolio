@@ -57,7 +57,7 @@ export default function Work() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className={`p-8 group hover:bg-surface-elevated transition-colors cursor-pointer ${
+            className={`p-6 md:p-8 group hover:bg-surface-elevated transition-colors cursor-pointer ${
               index < 4 ? 'border-b md:border-r border-outline-variant' : ''
             } ${index === 1 || index === 3 ? 'md:border-r' : ''} ${index === 4 ? 'md:col-span-2' : ''}`}
           >

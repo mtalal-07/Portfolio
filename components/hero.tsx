@@ -3,7 +3,7 @@ export default function Hero() {
     <>
       {/* Section 01: Hero */}
       <section className="px-6 md:px-16 lg:px-20 min-h-[921px] flex flex-col justify-end pb-20" id="hero">
-        <div className="max-w-[1440px] mx-auto w-full grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+        <div className="max-w-[1440px] mx-auto w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
           <div className="md:col-span-1 border-t border-outline-variant pt-4">
             <span className="block" style={{ fontFamily: "'Syne', system-ui", fontSize: '120px', fontWeight: 400, lineHeight: 1, opacity: 0.25 }}>01</span>
           </div>

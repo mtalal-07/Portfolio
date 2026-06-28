@@ -3,11 +3,11 @@ export default function Hero() {
     <>
       {/* Section 01: Hero */}
       <section className="px-6 md:px-16 lg:px-20 min-h-[921px] flex flex-col justify-end pb-20" id="hero">
-        <div className="max-w-[1440px] mx-auto w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+        <div className="max-w-[1440px] mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-20 items-start">
           <div className="md:col-span-1 border-t border-outline-variant pt-4">
             <span className="block" style={{ fontFamily: "'Syne', system-ui", fontSize: '120px', fontWeight: 400, lineHeight: 1, opacity: 0.25 }}>01</span>
           </div>
-          <div className="md:col-span-11 pt-4 border-t border-outline-variant">
+          <div className="md:col-span-2 pt-4 border-t border-outline-variant">
             <p className="font-label-mono-sm text-label-mono-sm text-primary-fixed mb-4">Full Stack Developer · Faisalabad, PK</p>
             <h1 className="mb-8 max-w-4xl leading-tight" style={{ fontFamily: "'Syne', system-ui", fontSize: 'clamp(64px, 10vw, 96px)', fontWeight: 700, letterSpacing: '-0.04em' }}>
               Building software <br />
